@@ -5,3 +5,6 @@ export const YOUTUBE_VIDEO_API = 'https://youtube.googleapis.com/youtube/v3/vide
 export const YOUTUBE_SUGGESTION_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const LIVE_CHAT_COUNT = 10;
+
+
+export const YOUTUBE_COMMENTS_API = "https://www.googleapis.com/youtube/v3/commentThreads?key="+ GOOGLE_API_KEY+"&textFormat=plainText&part=snippet&videoId=";

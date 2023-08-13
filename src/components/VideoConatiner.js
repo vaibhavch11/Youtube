@@ -15,6 +15,7 @@ const VideoConatiner = () => {
        const data = await fetch(YOUTUBE_VIDEO_API);
        const json = await data.json();
        setVideos(json.items);
+       console.log(json);
     }
 
   return (
@@ -25,7 +26,7 @@ const VideoConatiner = () => {
     
        { videos.map((item)=>(
            <Link to={"/watch?v=" + item.id} key={item.id}> 
-            <div className='my-5'>
+            <div className='my-5 '>
               <VideoCard info={item}/>
             </div>
             </Link>

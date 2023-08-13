@@ -43,7 +43,7 @@ const Header = () => {
     const data = await fetch(YOUTUBE_SUGGESTION_API + searchQuery);
     const json = await data.json();
     setSearchSuggestions(json[1]);
-    // console.log(json[1]);
+    
   }
 
     const dispatch = useDispatch();
