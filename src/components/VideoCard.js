@@ -12,10 +12,10 @@ const VideoCard = ({info}) => {
 
    
   return (
-    <div className=' m-2 w-96 shadow-lg h-[350px] '>
+    <div className=' m-2 w-80 shadow-lg  '>
 
       <div className=''>
-        <img className='rounded-lg w-full ' alt='thumbnail' src={thumbnails.medium.url} />
+        <img className='rounded-lg w-full ' alt='thumbnail' src={thumbnails.standard.url} />
       </div>
      
         <ul className='my-2 pl-[10px] flex flex-col items-start'>
