@@ -5,7 +5,7 @@ const VideoCard = ({info}) => {
     // console.log(info);
 
     const { snippet, statistics} = info;
-    const {thumbnails,title ,localized} = snippet;
+    const {thumbnails,title } = snippet;
 
     const viewCount = statistics.viewCount;
     const formattedViewCount = formatViewCount(viewCount ? viewCount : "N/A");

@@ -57,7 +57,7 @@ const commentsData = [
 ]
 
 const Comment =({data})=> {
-    const {name,text,replies} = data;
+    const {name,text} = data;
     return(
         <div className='flex my-2 bg-slate-50 p-3'>
             <div className='w-10 h-10'>

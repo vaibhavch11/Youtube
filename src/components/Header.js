@@ -1,9 +1,7 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { toogleMenu } from '../utils/aapSlice';
 import { YOUTUBE_SUGGESTION_API } from '../utils/constant';
-import { compose } from '@reduxjs/toolkit';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
 
